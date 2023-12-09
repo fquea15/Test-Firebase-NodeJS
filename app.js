@@ -6,14 +6,7 @@ const app = express();
 
 // Configuración de Firebase
 const firebaseConfig = {
-    apiKey: "AIzaSyAr8tcp0mNW5H3-zJheRm8ldd5nND4ep94",
-    authDomain: "delishdecider-f1611.firebaseapp.com",
-    databaseURL: "https://delishdecider-f1611-default-rtdb.firebaseio.com",
-    projectId: "delishdecider-f1611",
-    storageBucket: "delishdecider-f1611.appspot.com",
-    messagingSenderId: "686213277184",
-    appId: "1:686213277184:web:8a4aed0467e58f8663dae5",
-    measurementId: "G-7PBQBHJZX1"
+    //
 };
 
 firebase.initializeApp(firebaseConfig);
